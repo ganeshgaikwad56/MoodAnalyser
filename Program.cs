@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MoodAnalyser
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Mood Analyser Program.");
-
-            
+            Console.WriteLine("Welcome to the MSTest mood analyser program");
+            Console.ReadLine();
         }
     }
 }
